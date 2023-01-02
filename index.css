@@ -1,3 +1,11 @@
+/* import fonts */
+
+/* Cedarville Cursive */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+/* to use font use:
+* font-family: 'Cedarville Cursive', cursive;
+*/
+
 html {
   display: block;
   color: white;
@@ -9,12 +17,15 @@ html {
   left: 0;
   top: 0;
   bottom: 0;
-  padding-right: 10%;
+  padding-right: 2%;
   border: 3px solid #1C581A;
   background-color: #0E1112;
+}
 
-  margin: 0 auto;
+.sidepanel-title {
+  font-size: 1em;
   text-align: center;
+  font-family: 'Cedarville Cursive', cursive;
 }
 
 .sidepanel {
@@ -22,9 +33,10 @@ html {
 }
 
 .sidepanel-list {
-
+  border: 1px solid red;
+  margin-left: 1em;
 }
 
 .sidepanel-li {
-
+  margin: 1em;
 }
