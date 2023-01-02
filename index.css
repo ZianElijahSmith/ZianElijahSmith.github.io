@@ -1,0 +1,30 @@
+html {
+  display: block;
+  color: white;
+  background-color: #0E1112;
+}
+
+.sidepanel-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding-right: 10%;
+  border: 3px solid #1C581A;
+  background-color: #0E1112;
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sidepanel {
+  color: white;
+}
+
+.sidepanel-list {
+
+}
+
+.sidepanel-li {
+
+}
