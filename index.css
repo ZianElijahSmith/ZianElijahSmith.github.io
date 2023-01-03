@@ -22,6 +22,11 @@ html {
   background-color: #0E1112;
 }
 
+
+.sidepanel {
+  color: white;
+}
+
 .sidepanel-title {
   font-size: 1.75em;
   margin-left: 1%;
@@ -29,8 +34,8 @@ html {
   font-family: 'Cedarville Cursive', cursive;
 }
 
-.sidepanel {
-  color: white;
+.linknav {
+
 }
 
 .sidepanel-list {
@@ -41,6 +46,14 @@ html {
 .sidepanel-li {
   margin: 1em;
   font-size: 1.25em;
+}
+
+.sidepanel-a {
+
+}
+
+.sidepanel-a:visited {
+  color: white;
 }
 
 .intro {
