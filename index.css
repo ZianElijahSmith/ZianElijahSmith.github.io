@@ -17,13 +17,14 @@ html {
   left: 0;
   top: 0;
   bottom: 0;
-  padding-right: 2%;
+  padding-right: 4%;
   border: 3px solid #1C581A;
   background-color: #0E1112;
 }
 
 .sidepanel-title {
-  font-size: 1em;
+  font-size: 1.75em;
+  margin-left: 1%;
   text-align: center;
   font-family: 'Cedarville Cursive', cursive;
 }
@@ -39,4 +40,15 @@ html {
 
 .sidepanel-li {
   margin: 1em;
+  font-size: 1.25em;
+}
+
+.intro {
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.intro-text {
+  text-align: center;
 }
