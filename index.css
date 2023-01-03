@@ -6,11 +6,17 @@
 * font-family: 'Cedarville Cursive', cursive;
 */
 
+
+/* begin desktop view css */
+
+
 html {
   display: block;
   color: white;
   background-color: #0E1112;
 }
+
+/* begin desktop sidepanel css */
 
 .sidepanel-wrap {
   position: absolute;
@@ -25,11 +31,14 @@ html {
 
 .sidepanel {
   color: white;
+
 }
 
 .sidepanel-title {
+  border: 1px solid red;
+
   font-size: 1.75em;
-  margin-left: 1%;
+  margin-left: 20%;
   text-align: center;
   font-family: 'Cedarville Cursive', cursive;
 }
@@ -40,6 +49,7 @@ html {
 
 .sidepanel-list {
   border: 1px solid red;
+  margin-top: -2em;
   margin-left: 1em;
 }
 
@@ -56,6 +66,21 @@ html {
   color: white;
 }
 
+.social-nav {
+  border: 1px solid red;
+
+  padding-left: 3em;
+  margin: 0 auto;
+  width: 6em;
+}
+
+.fa-twitter {
+  color:	#1DA1F2;
+}
+
+/* end desktop sidepanel css */
+
+/* begin desktop body css */
 .intro {
   text-align: center;
   margin: 0 auto;
@@ -64,4 +89,26 @@ html {
 
 .intro-text {
   text-align: center;
+}
+
+
+/* end desktop body css */
+
+/* begin desktop footer css */
+
+/* begin desktop footer css */
+
+
+/* begin desktop view css */
+
+
+/* Mobile view */
+
+@media all and (max-width: 900px) {
+
+  html {
+    background-color: white;
+  }
+
+
 }
