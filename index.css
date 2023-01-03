@@ -69,14 +69,27 @@ html {
 .social-nav {
   border: 1px solid red;
 
-  padding-left: 3em;
-  margin: 0 auto;
-  width: 6em;
+  margin-left: 3em;
+  width: 9em;
+}
+
+
+/* begin desktop social media icons */
+
+.fa-brands {
+  margin: 0em .5em 0em .5em;
+  font-size: 1.5em;
 }
 
 .fa-twitter {
   color:	#1DA1F2;
 }
+
+.fa-github {
+
+}
+
+/* end desktop social media icons */
 
 /* end desktop sidepanel css */
 
@@ -85,6 +98,15 @@ html {
   text-align: center;
   margin: 0 auto;
   font-family: 'Cedarville Cursive', cursive;
+}
+
+.my-index-picture {
+  border-radius: 50%;
+  border: 1px solid red;
+  height: 100px;
+  width: auto;
+  margin-left: 47%;
+  margin-top: 1em;
 }
 
 .intro-text {
@@ -99,10 +121,10 @@ html {
 /* begin desktop footer css */
 
 
-/* begin desktop view css */
+/* end desktop view css */
 
 
-/* Mobile view */
+/* begin mobile view css */
 
 @media all and (max-width: 900px) {
 
@@ -112,3 +134,5 @@ html {
 
 
 }
+
+/* end mobile view css */
