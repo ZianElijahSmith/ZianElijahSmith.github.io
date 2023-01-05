@@ -158,7 +158,8 @@ html {
 
   html {
     /* temporary code for testing media break */
-    background-color: white;
+    background-color: black;
+    color: white;
   }
 
   /* begin mobile sidepanel */
