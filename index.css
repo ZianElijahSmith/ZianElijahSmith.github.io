@@ -158,29 +158,43 @@ html {
 
   html {
     /* temporary code for testing media break */
-    background-color: black;
-    color: white;
+    background-color: black;;
   }
 
   /* begin mobile sidepanel */
 
+  .sidepanel-wrap {
+    position: absolute;
+    margin-left: -10em;
+  }
+
   .sidepanel-wrap > * {
-    width: 0px;
-    height: 0px;
-    margin-left: -100px;
-    display: none;
-    visibility: hidden;
+    position: absolute;
+    margin-left: -10em;
   }
 
   /* end mobile sidepanel */
 
   /* begin mobile header */
-.header > * {
-  display: block;
-   visibility: visible !important;
-   width: 97vw;
-  height: 100px;
+  nav {
+    border: 1px solid green;
+    height: 1px !important;
   }
+
+  .header {
+    border: 1px solid red;
+    z-index: 10;
+
+    height: 50px !important;
+  }
+
+  .header > * {
+      display: block;
+      visibility: visible !important;
+      width: 97vw;
+      height: 100px;
+    }
+
   .home-intro {
     visibility: visible;
     width: 50vw;
@@ -208,6 +222,7 @@ html {
     transition: 0.5s;
     height: calc(100vh - 50px);
   }
+
   .menu-nav-active {
     visibility: visible;
     position: absolute;
@@ -247,9 +262,33 @@ html {
     z-index: 10;
   }
 
+  .fa-bars {
+    position: absolute;
+    right: 3em;
+    top: 3em;
+  }
+  /* end mobile header */
 
 
-/* end mobile header */
+  /* begin mobile body wrap */
+  .my-index-picture {
+    margin-left: 40%;
+  }
 
+  .body-wrap {
+    border: 1px solid purple;
+
+    margin-top: 15%;
+    position: relative;
+    display: block;
+
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+
+
+  /* end mobile body wrap */
 
 }
