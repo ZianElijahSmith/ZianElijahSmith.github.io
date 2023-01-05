@@ -73,6 +73,13 @@ html {
   width: 9em;
 }
 
+.social-a {
+
+}
+
+.social-a:visited {
+
+}
 
 /* begin desktop social media icons */
 
@@ -86,12 +93,28 @@ html {
 }
 
 .fa-github {
-
+  color: white;
 }
 
 /* end desktop social media icons */
 
 /* end desktop sidepanel css */
+
+
+
+/* begin mobile header */
+.header > * {
+  height: 0px;
+  visibility: hidden;
+  background-color: black;
+
+}
+
+
+/* end mobile header */
+
+
+
 
 /* begin desktop body css */
 .intro {
@@ -110,7 +133,12 @@ html {
 }
 
 .intro-text {
+  border: 1px solid red;
+
   text-align: center;
+  width: 50%;
+  position: relative;
+  margin-left: 26%;
 }
 
 
@@ -121,18 +149,106 @@ html {
 /* begin desktop footer css */
 
 
-/* end desktop view css */
+/* begin desktop view css */
 
 
-/* begin mobile view css */
+/* Mobile view */
 
 @media all and (max-width: 900px) {
 
   html {
+    /* temporary code for testing media break */
     background-color: white;
   }
 
+  /* begin mobile sidepanel */
+
+  .sidepanel-wrap > * {
+    width: 0px;
+    height: 0px;
+    margin-left: -100px;
+    display: none;
+    visibility: hidden;
+  }
+
+  /* end mobile sidepanel */
+
+  /* begin mobile header */
+.header > * {
+  display: block;
+   visibility: visible !important;
+   width: 97vw;
+  height: 100px;
+  }
+  .home-intro {
+    visibility: visible;
+    width: 50vw;
+    font-size: .9em;
+  }
+
+
+  .menu-header {
+    visibility: visible;
+    padding: 0 20px;
+  }
+
+  .header-tag {
+    font-family: 'Cedarville Cursive', cursive;
+    margin-left: 1em;
+  }
+
+  .menu-nav {
+    visibility: visible;
+    position: absolute;
+    width: 100%;
+    background: #333;
+    top: 3em;
+    left: -120%;
+    transition: 0.5s;
+    height: calc(100vh - 50px);
+  }
+  .menu-nav-active {
+    visibility: visible;
+    position: absolute;
+    width: 100%;
+    background: #0a0808;
+    top: 5em;
+    left: 0%;
+    transition: 0.5s;
+    height: calc(100vh - 50px);
+    color:white;
+  }
+
+  .menu-nav > ul {
+    visibility: visible;
+    display: block;
+    text-align: center;
+  }
+  .menu-list > a {
+    visibility: visible;
+    border-bottom: 1px solid black;
+  }
+  .menu-list > a:hover {
+    visibility: visible;
+    background-color: grey;
+  }
+  .menu-list > a {
+    visibility: visible;
+    text-align: center;
+    margin: 0 auto;
+    width: 100vw;
+  }
+
+  .menu-toggle {
+    visibility: visible;
+    display: block;
+    line-height: 3em;
+    z-index: 10;
+  }
+
+
+
+/* end mobile header */
+
 
 }
-
-/* end mobile view css */
