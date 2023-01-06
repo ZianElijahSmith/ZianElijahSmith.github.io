@@ -35,10 +35,10 @@ html {
 }
 
 .sidepanel-title {
-  border: 1px solid red;
 
   font-size: 1.75em;
   margin-left: 20%;
+  margin-bottom: 10%;
   text-align: center;
   font-family: 'Cedarville Cursive', cursive;
 }
@@ -48,9 +48,9 @@ html {
 }
 
 .sidepanel-list {
-  border: 1px solid red;
-  margin-top: -2em;
+  margin-top: 0em;
   margin-left: 1em;
+  text-align: center;
 }
 
 .sidepanel-li {
@@ -67,8 +67,6 @@ html {
 }
 
 .social-nav {
-  border: 1px solid red;
-
   margin-left: 3em;
   width: 9em;
 }
@@ -125,7 +123,6 @@ html {
 
 .my-index-picture {
   border-radius: 50%;
-  border: 1px solid red;
   height: 100px;
   width: auto;
   margin-left: 47%;
@@ -133,8 +130,6 @@ html {
 }
 
 .intro-text {
-  border: 1px solid red;
-
   text-align: center;
   width: 50%;
   position: relative;
@@ -158,7 +153,7 @@ html {
 
   html {
     /* temporary code for testing media break */
-    background-color: black;;
+    background-color: black;
   }
 
   /* begin mobile sidepanel */
