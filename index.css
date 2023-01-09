@@ -172,12 +172,11 @@ html {
 
   /* begin mobile header */
   nav {
-    border: 1px solid green;
+
     height: 1px !important;
   }
 
   .header {
-    border: 1px solid red;
     z-index: 10;
 
     height: 50px !important;
@@ -271,7 +270,6 @@ html {
   }
 
   .body-wrap {
-    border: 1px solid purple;
 
     margin-top: 15%;
     position: relative;
