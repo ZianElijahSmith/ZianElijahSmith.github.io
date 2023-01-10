@@ -47,6 +47,11 @@ html {
 
 }
 
+@keyframes increase_sidepanel_font_size {
+  0% {font-size: 20px;}
+  100% {font-size: 22px;}
+}
+
 .sidepanel-list {
   margin-top: 0em;
   margin-left: 1em;
@@ -62,16 +67,42 @@ html {
 
 }
 
+.sidepanel-li:hover {
+  font-size: 22px;
+  animation-name: increase_sidepanel_font_size;
+  animation-duration: 1s;
+
+}
+
 .sidepanel-a:visited {
   color: white;
 }
 
+
+/* end desktop sidepanel */
+
+/* begin desktop social media icons */
+
+.social-wrap {
+  width: 20%;
+  text-align: center;
+  margin: 0 auto;
+}
 .social-nav {
-  margin-left: 3em;
-  width: 9em;
 }
 
 .social-a {
+  margin: 0 auto;
+}
+
+@keyframes increase_icon_size {
+  0% {font-size: 25px;}
+  25% {font-size: 27px;}
+  50% {font-size: 29px;}
+  75% {font-size: 32px;}
+  100% {font-size: 35px;}
+}
+.social-a:hover {
 
 }
 
@@ -79,11 +110,18 @@ html {
 
 }
 
-/* begin desktop social media icons */
-
 .fa-brands {
   margin: 0em .5em 0em .5em;
   font-size: 1.5em;
+
+  font-size: 25px;
+}
+
+.fa-brands:hover {
+  animation-name: increase_icon_size;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  font-size: 35px;
 }
 
 .fa-twitter {
