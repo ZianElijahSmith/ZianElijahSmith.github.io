@@ -70,8 +70,8 @@ html {
 .sidepanel-li:hover {
   font-size: 22px;
   animation-name: increase_sidepanel_font_size;
-  animation-duration: 1s;
-
+  animation-duration: 0.5ss;
+  
 }
 
 .sidepanel-a:visited {
@@ -113,13 +113,13 @@ html {
 .fa-brands {
   margin: 0em .5em 0em .5em;
   font-size: 1.5em;
-
+  
   font-size: 25px;
 }
 
 .fa-brands:hover {
   animation-name: increase_icon_size;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-iteration-count: 1;
   font-size: 35px;
 }
