@@ -71,7 +71,7 @@ html {
   font-size: 22px;
   animation-name: increase_sidepanel_font_size;
   animation-duration: 0.5ss;
-  
+
 }
 
 .sidepanel-a:visited {
@@ -113,7 +113,7 @@ html {
 .fa-brands {
   margin: 0em .5em 0em .5em;
   font-size: 1.5em;
-  
+
   font-size: 25px;
 }
 
@@ -209,6 +209,16 @@ html {
   /* end mobile sidepanel */
 
   /* begin mobile header */
+
+  .header {
+
+  }
+
+  .menu-header {
+    visibility: visible;
+    padding: 0 20px;
+  }
+
   nav {
 
     height: 1px !important;
@@ -233,11 +243,6 @@ html {
     font-size: .9em;
   }
 
-
-  .menu-header {
-    visibility: visible;
-    padding: 0 20px;
-  }
 
   .header-tag {
     font-family: 'Cedarville Cursive', cursive;
@@ -279,6 +284,9 @@ html {
   .menu-list > a:hover {
     visibility: visible;
     background-color: grey;
+  }
+  .menu-list > a:visited {
+    color: white;
   }
   .menu-list > a {
     visibility: visible;
