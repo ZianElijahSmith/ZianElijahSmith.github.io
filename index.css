@@ -260,6 +260,9 @@ html {
     left: -120%;
     transition: 0.5s;
     height: calc(100vh - 50px);
+
+
+    z-index: 100;
   }
 
   .menu-nav-active {
@@ -272,29 +275,66 @@ html {
     transition: 0.5s;
     height: calc(100vh - 50px);
     color:white;
+
+
   }
 
   .menu-nav > ul {
     visibility: visible;
     display: block;
     text-align: center;
+    list-style: none;
+    z-index: 100 !important;
+
+
+    height: 100vh !important;
+    width: 95vw !important;
+
+    margin: 1em auto;
+    overflow: hidden;
+    background-color: black;
+
+
+    border: 1px solid red;
+
   }
-  .menu-list > a {
+
+  .menu-ul {
+
+  }
+
+  .menu-ul > a {
+    margin: 1em 0em 1em 0em;
+    border: 1px solid blue;
+  }
+
+  .menu-link {
+    display: block;
     visibility: visible;
-    border-bottom: 1px solid black;
+    text-align: center;
+    width: 50vw;
+
+    margin: 1em auto;
+
+    border: 1px solid green;
+
+
   }
-  .menu-list > a:hover {
+  .menu-link:hover {
     visibility: visible;
     background-color: grey;
   }
-  .menu-list > a:visited {
+  .menu-link:visited {
     color: white;
   }
+
   .menu-list > a {
     visibility: visible;
     text-align: center;
-    margin: 0 auto;
-    width: 100vw;
+
+    font-size: 1.5em;
+    color: white;
+
   }
 
   .menu-toggle {
@@ -315,6 +355,7 @@ html {
   /* begin mobile body wrap */
   .my-index-picture {
     margin-left: 40%;
+    z-index: 1;
   }
 
   .body-wrap {
