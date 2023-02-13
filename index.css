@@ -406,8 +406,12 @@ html {
 
 @media all and (max-width: 750px) {
 
+  html {
+
+  }
+
   .my-index-picture {
-    margin-left: 35%;
+    margin-left: 40%;
   }
 
   .body-wrap {
