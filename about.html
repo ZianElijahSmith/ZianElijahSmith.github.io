@@ -3,7 +3,7 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8"/>
-    <title> Zian's Website </title>
+    <title> Zian's Website - About </title>
     <!-- CSS -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" type="text/css" media="all" href="/index.css">
@@ -78,16 +78,16 @@
         <h2 class="header-tag">Zian E. Smith</h2></div>
         <div>
           <nav class="menu-nav">
-            <ul>
-              <li class="menu-list"><a class="" href="/">Home</a></li>
-              <li class="menu-list"><a href="/about.html">About</a></li>
-              <li class="menu-list"><a href="/articles.html">Articles</a></li>
-              <li class="menu-list"><a href="/contact.html">Contact</a></li>
+            <ul class="menu-ul">
+              <li class="menu-list"><a class="menu-link" href="/">Home</a></li>
+              <li class="menu-list"><a class="menu-link" href="/about.html">About</a></li>
+              <li class="menu-list"><a class="menu-link" href="/articles.html">Articles</a></li>
+              <li class="menu-list"><a class="menu-link" href="/contact.html">Contact</a></li>
             </ul>
           </nav>
         </div>
         <div class="menu-toggle">
-        <i class="fa fa-bars" aria-hidden="false"></i>
+          <i class="fa fa-bars" aria-hidden="false"></i>
         </div>
       </header>
         <hr class="sep">
@@ -99,10 +99,19 @@
 
      <br>
 
+     <div class="body-wrap">
+       <div class="body-area">
+         <h1 class="intro">Hi! I'm Zian Smith</h1>
+         <image class="my-index-picture" src="https://raw.githubusercontent.com/ZianElijahSmith/ZianElijahSmith.github.io/main/images/zian-2022-oil-painting.jpg">
+         <p class="intro-text">
+           I'm a person who wears many hats, welcome to my github website.
+           <br><br>
+           At the end of the day, I'm just trying to make the world a better place and have a good time while doing it.
 
-
-
-
+           </p>
+       </div>
+         <br>
+     </div>
        <div class="social-wrap">
          <nav class="social-nav">
    <a class="social-a" href="https://twitter.com/ZianElijahSmith"><i class="fa-brands fa-twitter"></i></a>
@@ -116,7 +125,7 @@ $(document).ready(function() {
     $('.menu-nav').toggleClass('menu-nav-active')
   })
 })
-  </script>
+       </script>
 
      <!-- scripts -->
 </html>
