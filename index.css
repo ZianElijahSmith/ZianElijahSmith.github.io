@@ -16,6 +16,10 @@ html {
   background-color: #0E1112;
 }
 
+a:visited {
+  color:white;
+}
+
 /* begin desktop sidepanel css */
 
 .sidepanel-wrap {
