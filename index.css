@@ -419,28 +419,29 @@ a:visited {
   }
   .intro {
     text-align: center;
+    margin-left: 10%;
 
   }
   .my-index-picture {
     text-align: center;
-
+    margin-left: -15%;
   }
 
   .body-wrap {
     width: 80vw;
-
+    margin-left: 10%;
     text-align: center;
   }
 
   .body-area {
     width: 80vw;
-
+    margin-left: 10%;
     text-align: center;
   }
 
   .intro-text {
     width: 80vw;
-
+    margin-left: 10%;
     text-align: center;
   }
 
