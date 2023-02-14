@@ -411,7 +411,7 @@ a:visited {
 @media all and (max-width: 750px) {
 
   html {
-
+  width: 95vw;
   }
 
   body {
