@@ -414,6 +414,10 @@ a:visited {
 
   }
 
+  body {
+    text-align: center;
+  }
+
   .my-index-picture {
     margin-left: 35%;
   }
